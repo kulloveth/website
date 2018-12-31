@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("program.jpg");
+    background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+nav{
+
+	background-color: black;
+	color: #00F700;
+	margin-top: opx;
+	display: flex;
+	justify-content: center;
+}
+
+input{
+	background-color: black;
+	margin-top: 500px;
+margin-left: 650px;
+color:#00F700;
+border-radius: 50px; 
+cursor: pointer;
+}
+
+.but:hover{
+color:white;
+
+}
+ a{   
+	display: inline-block;
+	margin-right: 50px;
+  color: #00F700;
+  text-decoration: none;
+        }
+        a:hover{
+        	color: white;
+        }
