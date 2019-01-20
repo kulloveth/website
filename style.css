@@ -28,6 +28,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color:#F6FFFB;
+  display: flex;
+  justify-content: center;
   
 }
 ul{
