@@ -5,13 +5,17 @@
   box-sizing: border-box
 }
 
-.first{
+.first>img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
   margin-top: 0px !important;
-  background-image: url("program.jpg");
-  margin-left: 180px;
+  margin-left: 200px;
           /* background-position: center; */
-          background-repeat: no-repeat;
-          background-size: 1000px;
+          margin-bottom: 10px;
+
+          
           
 }
 #course{
