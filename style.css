@@ -8,6 +8,7 @@
 border: 1px solid #bbb;
   background: #56B870
 }
+
 .main-nav{
   display: flex;
   list-style: none;
@@ -26,49 +27,48 @@ border: 1px solid #bbb;
   .push{
     margin-left: auto;
   }
+  #cover {
+    width: auto;
+    height: 100vh;
+    background-image:url(img/pc.jpg) ;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+z-index: -1;
+}
 
-  @media only screen and (max-width: 700px) {
 
-    #course{
-      display:flex;
-      flex-direction:column;
-    }
-    
-  }
-  @media only screen and (max-width: 600px) {
-
+  @media screen and (max-width: 600px) {
+   
     .main-nav{
       font-size: 1.2em;
       padding: 0;
     }
-
-    #course{
-      display:flex;
-      flex-direction:column;
-    }
-
+    
+   
   }
 
-  #cover{
-    margin: 1px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F8FBFA;
-  }
-  .pics{
-    width: 80%;
-    height: 70vh;
-  }
   #course{
-    display: grid;
-    grid-template-areas: 'myArea myArea myArea';
-  grid-gap: 10px;
+   display:flex;
+   flex-wrap: wrap;
+   
   }
+
+
+  #course>div{
+font-size: 20px;
+margin-top: 20px;
+margin-left: 100px;
+padding: 20px;
+width: auto;
+
+  }
+
   .titl{
-    margin: 0;
-    grid-area: myArea;
+    border: 2px solid black;
+    margin: 2px;
     text-align: center;
+    background-color: #56B870;
   }
   .sticky{
     position: fixed;
