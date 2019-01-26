@@ -30,7 +30,7 @@ border: 1px solid #bbb;
   #cover {
     width: auto;
     height: 100vh;
-    background-image:url(img/pc.jpg) ;
+    background-image:url(pc.jpg) ;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
